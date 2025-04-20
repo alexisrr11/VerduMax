@@ -1,0 +1,64 @@
+main {
+    padding: 20px;
+}
+main h2 {
+    padding: 25px 0;
+    font-size: 35px;
+    text-align: center;
+}
+main h3 {
+    font-size: 25px;
+}
+.verduras,
+.frutas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.container-verduras,
+.container-frutas {
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid rgb(145, 83, 96);
+    border-radius: 5px 30px;
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.493) 0%, rgba(105, 17, 35, 0.596) 100%);
+}
+.container-verduras img,
+.container-frutas img {
+    padding: 10px 0;
+    max-height: 150px;
+    min-width: 20px;
+}
+.container-frutas p,
+.container-verduras p {
+    font-family: cursive;
+}
+.container-frutas button,
+.container-verduras button {
+    color: #FFFF;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #FFFF;
+    border-radius: 30px;
+}
+.container-verduras h4,
+.container-frutas h4 {
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 991px) {
+    .verduras,
+    .frutas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .verduras,
+    .frutas {
+        grid-template-columns: 1fr;
+    }
+}

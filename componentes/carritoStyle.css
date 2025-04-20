@@ -1,0 +1,86 @@
+/*Estilos para el modal-carrito*/
+.modal-carro {
+    color: black;
+    position: fixed;
+    top: 65px;
+    left: 50px;
+    padding: 10px;
+    background-color: #e6e4e4f1;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    max-height: 80vh; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 0 20px 20px 20px;
+    z-index: 1;
+  }
+.modal-carro h3 {
+    color: rgb(112, 62, 72);
+    font-size: 1.7em;
+}
+.hide-modal-cart {
+    display: none;
+}
+.itemCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    margin: 5px 0;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+.itemCarrito img {
+    height: 50px;
+    width: 50px;
+}
+.btn-remove,
+.less,
+.plus {
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+.btn-remove i {
+    padding: 3px;
+    font-size: 1.5rem;
+    color: rgb(211, 15, 15);
+}
+.btn-remove i:hover {
+    transition: 1s;
+    border-radius: 50%;
+    background-color: rgb(211, 15, 15);
+    color: white;
+    transform: scale(1.17);
+}
+.less i,
+.plus i {
+    font-size: 24px;
+}
+.less i:active,
+.plus i:active {
+    color: rgb(95, 94, 94);
+    transform: scale(1.15);
+}
+.total-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+.total-compra p {
+    font-size: 20px;
+}
+.total-compra a {
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(14, 73, 14);
+    border: none;
+    border-radius: 50px;
+}

@@ -1,0 +1,127 @@
+.header {
+    background-image: linear-gradient(160deg, rgba(37, 1, 8, 0.507) 0%, rgba(37, 6, 6, 0.452) 100%), url(/images/verduleria.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+.logo {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: pink;
+    text-decoration: none;
+}
+.cart-content {
+    display: flex;
+    position: absolute;
+    left: 10px;
+}
+.cart-content button {
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    color: #FFFF;
+    border-radius: 50%;
+    border: none;
+}
+.cart-content button i {
+    font-size: 33px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 3px solid #FFFF;
+    background-color: rgba(160, 2, 31, 0.507);
+}
+.search-content {
+    padding: 15px 0;
+}
+.search-content input,
+.search-content a {
+    font-size: 25px;
+}
+.search-content a {
+    color: rgb(112, 62, 72);
+    background-color: #FFFF;
+    padding: 2px;
+    cursor: pointer;
+    border: none;
+}
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: fixed;
+    top: 55px;
+    font-size: 20px;
+    right: 0;
+    padding: 45px;
+    background-color: rgba(248, 89, 121, 0.521);
+    border-radius: 20px 0 20px 20px;
+}
+.ul a {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFFF;
+}
+#open-close {
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    top: 15px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    z-index: 1;
+}
+#open-close i {
+    color: #FFFF;
+    padding: 2px;
+    border: 2px solid #FFFF;
+    border-radius: 50%;
+    background-color: rgba(248, 89, 121, 0.521);
+}
+.hide {
+    display: none;
+}
+.titleMax {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 250px;
+}
+.open-modal .cantidad {
+    font-weight: 700;
+    color: rgb(153, 63, 81);
+    position: absolute;
+    top: 19px;
+    left: 21px;
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        display: none;
+    }
+    .titleMax {
+        text-align: center;
+        padding: 0 25px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .search-content input,
+    .search-content a {
+        font-size: 18px;
+    }
+}
