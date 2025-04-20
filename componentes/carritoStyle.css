@@ -84,3 +84,10 @@
     border: none;
     border-radius: 50px;
 }
+
+@media screen and (max-width: 500px) {
+    .modal-carro {
+        width: 90vw;
+        left: 25px;
+    }
+}
