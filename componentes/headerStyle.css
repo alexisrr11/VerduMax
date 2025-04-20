@@ -117,6 +117,7 @@
 @media screen and (max-width: 500px) {
     .search-content input,
     .search-content a {
-        font-size: 22px;
+        font-size: 20px;
+        height: 10vh;
     }
 }
