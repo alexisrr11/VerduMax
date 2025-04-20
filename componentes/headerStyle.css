@@ -74,7 +74,7 @@
     position: fixed;
     right: 10px;
     top: 15px;
-    font-size: 30px;
+    font-size: 38px;
     border: none;
     background-color: transparent;
     z-index: 1;
@@ -114,14 +114,9 @@
     }
 }
 
-@media screen and (max-width: 991px) {
-    .logo {
-        display: none;
-    }
-}
 @media screen and (max-width: 500px) {
     .search-content input,
     .search-content a {
-        font-size: 18px;
+        font-size: 22px;
     }
 }
