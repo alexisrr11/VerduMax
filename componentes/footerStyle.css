@@ -1,6 +1,6 @@
 .footer {
     padding-bottom: 20px;
-    background: linear-gradient( rgba(0, 0, 0, 0.87), rgba(131, 24, 24, 0.2));
+    background: linear-gradient(rgba(131, 24, 24, 0.2), rgba(0, 0, 0, 0.87));
     text-align: center;
 }
 .footer h2 {
@@ -8,7 +8,7 @@
     padding: 35px 0;
     border-bottom: 2px solid #ffff;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(255, 255, 255, 0.055);
 }
 .direccion-container {
     display: flex;
